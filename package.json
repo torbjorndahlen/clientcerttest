@@ -1,0 +1,27 @@
+{
+  "name": "clientcerttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torbjorndahlen/clientcerttest.git"
+  },
+  "keywords": [
+    "client",
+    "cert"
+  ],
+  "author": "Torbjörn Dahlén",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/torbjorndahlen/clientcerttest/issues"
+  },
+  "homepage": "https://github.com/torbjorndahlen/clientcerttest#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "tls": "0.0.1"
+  }
+}
