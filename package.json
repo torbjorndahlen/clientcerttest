@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/torbjorndahlen/clientcerttest#readme",
   "dependencies": {
+    "express": "^4.15.0",
     "fs": "0.0.1-security",
     "tls": "0.0.1"
   }
