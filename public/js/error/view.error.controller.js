@@ -2,9 +2,9 @@
     'use strict';
 
     angular
-        .module('error', ['ui.router','ngStorage'])
-        .controller('viewErrorController', ['$scope', '$state', '$sessionStorage',
-            function($scope, $state, $sessionStorage) {
+        .module('error', ['ui.router'])
+        .controller('viewErrorController', ['$scope', '$state',
+            function($scope, $state) {
                 $scope.error = $state.params.error;
 
                     $scope.ok = function() {
