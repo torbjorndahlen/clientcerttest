@@ -10,7 +10,7 @@ var options = {
     ca: fs.readFileSync('cert/ca-crt.pem') };
 var req = https.request(options, function(res) {
     res.on('data', function(data) {
-        process.stdout.write(data);
+        process.stdout.write(data + '\n');
     });
 });
 req.end();

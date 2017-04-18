@@ -49,7 +49,7 @@ https_app.get('/api/', function (req, res) {
       );
 
     res.statusCode = 200;
-    res.json('hello world');
+    res.json('SSL: hello world');
 
     console.log('\n\n=========REQUEST END===============');
 });
